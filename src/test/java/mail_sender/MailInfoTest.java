@@ -16,7 +16,7 @@ class MailInfoTest {
 
     @Test
     void getMailText() {
-        assertEquals(mailInfo.getMailText(), "Tim! Happy birthday!\r\n");
+        assertEquals(mailInfo.getMailText(), "Tim! Happy birthday!\n");
     }
 
     @Test
